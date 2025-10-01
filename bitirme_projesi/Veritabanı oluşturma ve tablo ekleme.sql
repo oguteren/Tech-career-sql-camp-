@@ -4,7 +4,7 @@ GO
 USE BitirmeProjesi;
 GO
 
-CREATE TABLE Müsteriler (
+CREATE TABLE MÃ¼steriler (
     id INT PRIMARY KEY IDENTITY(1,1),
     ad NVARCHAR(50) NOT NULL,
     soyad NVARCHAR(50) NOT NULL,
@@ -37,11 +37,11 @@ CREATE TABLE URUN (
 
 CREATE TABLE Siparis (
     id INT PRIMARY KEY IDENTITY(1,1),
-    müsteri_id INT NOT NULL,
+    mÃ¼steri_id INT NOT NULL,
     tarih DATETIME DEFAULT GETDATE(),
     toplam_tutar DECIMAL(10,2) NOT NULL CHECK(toplam_tutar>=0),
     odeme_turu NVARCHAR(50),
-    FOREIGN KEY (müsteri_id) REFERENCES Müsteriler(id)
+    FOREIGN KEY (mÃ¼steri_id) REFERENCES MÃ¼steriler(id)
 );
 
 CREATE TABLE Siparis_Detay (
@@ -53,4 +53,5 @@ CREATE TABLE Siparis_Detay (
     FOREIGN KEY (siparis_id) REFERENCES Siparis(id),
     FOREIGN KEY (urun_id) REFERENCES URUN(id)
 );
-SELECT * FROM eTicaretPlatformu WHERE name = 'Siparis';
+
+
