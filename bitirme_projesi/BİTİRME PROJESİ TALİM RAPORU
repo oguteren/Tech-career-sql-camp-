@@ -1,0 +1,10 @@
+BİTİRME PROJESİ TESLİM RAPORU:                 
+
+Bu projede bir e-ticaret platformunun veritabanını oluşturdum bu veritabanını oluşturma aşamalarında veritabanı
+ve tablo tasarımları veri ekleme ve veri analizi ve raporlama işlemleri ile uğraştım. Veritabanının tasarımında
+tabloların birbirleri ile ilişkilerine dikkat ettim. Özellikle veri ekleme aşamalarında verilerin gerçekliği konusunda 
+özenli olmaya çalıştım ve bu kısım beni en çok zorlayan bölümlerdendi. Bir tablodaki ürünün fiyatının ve satış sayısının 
+diğer tablolarda eşleşmesi ve bunların kontrolleri benim için epey zaman alıcı kısımlardandı. Daha sonra raporlama ve analizlerde 
+kolaydan zora doğru gitmeyi tercih ettim ve zayıf olduğum “JOIN” konusunda epey bir pratik yapma şansı buldum. Bana SQL konusunda 
+bilgi birikimine sahip olmamı sağlayan Techcareer.net ekibine teşekkür eder, yeni eğitimlerde görüşmek isterim. 
+EREN ÖĞÜT
